@@ -1,0 +1,2 @@
+ncu --set basic --kernel-name-base demangled --force-overwrite -o out\ncu\direct_debug starter\build\Release\engine.exe --pack D:\PhotonUser\resnet18_pack\resnet18_pack --set debug --out out\ncu\direct_run --batch 8 --conv direct --iters 1 --warmup 0
+--pack "D:\PhotonUser\resnet18_pack\resnet18_pack" --set debug --out "out\ncu\direct_run" --batch 8 --conv direct --iters 1 --warmup 0
